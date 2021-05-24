@@ -1,0 +1,46 @@
+
+.sidebar .sidebar-header {
+    padding: 20px;
+    background: #193566;
+}
+.component{
+    padding: 20px 0;
+}
+.rowoverlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index:1;
+    bottom:0;
+    right:0;
+    height:100%;
+} 
+.coloverlay{
+    background: #193566;
+    border-radius: 20px;
+    height: 100%;
+    margin-left: 2%;
+  }
+.listIcon{
+    position: fixed;
+    left: 3.8%;
+    right: 15%;
+    top: 3.51%;
+    bottom: 92.74%;
+}
+.dashboardIcon{
+    position: fixed;
+    left: 3.5%;
+    right: 9.92%;
+    top: 30.61%;
+    bottom: 65.76%;
+}
+.choosen{
+    position: fixed;
+    left: 3.2%;
+    right: 94.5%;
+    top: 29.73%;
+    bottom: 65.15%;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
