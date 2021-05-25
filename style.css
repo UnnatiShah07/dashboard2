@@ -79,16 +79,16 @@ ul li label{
     text-align: center;
     box-shadow: -7px -7px 15px #FFFFFF, 7px 7px 14px rgba(151, 167, 195, 0.3);
     border-radius: 100px;
-    padding: 5px 30px;
-    margin-top: 13px;
-    margin-left: 10px;
+    padding: 2px 30px;
+    margin-top: 16px;
+    margin-left: -20px;
 }
 .bellIcon{
     border: none;
     border-radius: 30px;
     padding: 5px 6px;
     margin-top: 19px;
-    margin-left: 90px;
+    margin-left: 60px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .settingIcon{
@@ -96,77 +96,110 @@ ul li label{
     border-radius: 30px;
     padding: 5px 6px;
     margin-top: 19px;
-    margin-left: 35px;
+    margin-left: 8px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.layout{
+    background: #ECF0F3;
+    box-shadow: -8px -8px 16px #FFFFFF, 10px 10px 20px rgba(151, 167, 195, 0.3);
+    border-radius: 15px;
 }
 .sales{
     width: 230px;
     height: 210px;
     margin-left: 22px;
-    background: #ECF0F3;
-    box-shadow: -8px -8px 16px #FFFFFF, 10px 10px 20px rgba(151, 167, 195, 0.3);
-    border-radius: 20px;
-    border: 1px solid black;
+    font-family: Poppins;
+    font-style: normal;
+    color: #193566;
 }
 .sales .totalsales{
-    font-family: Poppins;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 45px;
-    color: #193566;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;   
 }
 .sales .amount{
-    font-family: Poppins;
-    font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 64px;
-    color: #193566;
+    margin-top: 12px;
+    margin-left: 10px;
 }
-.lounge{
-    width: 480px;
-    height: 295px;
-    margin-left: 22px;
-    margin-top: 22px;
+.sales .view{
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
     background: #ECF0F3;
     box-shadow: -8px -8px 16px #FFFFFF, 10px 10px 20px rgba(151, 167, 195, 0.3);
-    border-radius: 20px;
-    border: 1px solid black;
+    border-radius: 5px;
+}
+.total-visit{
+    width: 230px;
+    height: 210px;
+    margin-left: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    color: #193566;
+}
+.total-visit .totalvisit{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.total-visit .clients{
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 64px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.total-visit .view{
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    background: #ECF0F3;
+    box-shadow: -8px -8px 16px #FFFFFF, 10px 10px 20px rgba(151, 167, 195, 0.3);
+    border-radius: 5px;
+}
+
+.lounge{
+    width: 485px;
+    height: 298px;
+    margin-left: 22px;
+    margin-top: 20px;
 }
 .service-provider{
     width: 200px;
     height: 350px;
-    background: #ECF0F3;
-    box-shadow: -8px -8px 16px #FFFFFF, 10px 10px 20px rgba(151, 167, 195, 0.3);
-    border-radius: 20px;
-    border: 1px solid black;
+    margin-left: -45px;
 }
 .total-appointment{
     width: 200px;
-    height: 155px;
+    height: 156px;
     margin-top: 22px;
-    background: #ECF0F3;
-    box-shadow: -8px -8px 16px #FFFFFF, 10px 10px 20px rgba(151, 167, 195, 0.3);
-    border-radius: 20px;
-    border: 1px solid black;
+    margin-left: -45px;
 }
 .upcoming-appointment{
-    width: 430px;
+    width: 435px;
     height: 300px;
-    background: #ECF0F3;
-    box-shadow: -8px -8px 16px #FFFFFF, 10px 10px 20px rgba(151, 167, 195, 0.3);
-    border-radius: 20px;
-    border: 1px solid black;
+    margin-left: -50px;    
 }
 .popular-hour{
-    width: 430px;
-    height: 205px;
+    width: 435px;
+    height: 206px;
     margin-top: 22px;
-    background: #ECF0F3;
-    box-shadow: -8px -8px 16px #FFFFFF, 10px 10px 20px rgba(151, 167, 195, 0.3);
-    border-radius: 20px;
-    border: 1px solid black;
+    margin-left: -50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -230,6 +263,45 @@ ul li label{
         margin-top: 4px;
         margin-left: 15px;
     }
+    .col-lg-5{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .col-lg-2{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .sales{
+
+    }
+    .total-visit{
+
+    }
+    .lounge{
+        width: 258px;
+        height: 298px;
+    }
+    .service-provider{
+        
+    }
+    .total-appointment{
+        
+    }
+    .upcoming-appointment{
+        width: 258px;
+        height: 300px;
+    }
+    .popular-hour{
+        width: 258px;
+        height: 206px;
+    }
+    .layout-scroll{
+        position: absolute;
+        overflow-y: scroll;
+        height: 81.5%;
+        width: 92%;
+        margin-top: 20px;
+    }  
 }
 
 
