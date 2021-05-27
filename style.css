@@ -62,6 +62,7 @@ ul li label{
     margin-left: 8px;
     font-family: Poppins;
     font-style: normal;
+    font-weight: 900;
     font-size: 40px;
     line-height: 75px;
 }
@@ -91,6 +92,15 @@ ul li label{
     margin-left: 60px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.notification{
+    position: absolute;
+    left: 93%;
+    right: 1%;
+    top: 41%;
+    bottom: 47%;
+    border-radius: 20px;
+    background: #FF0000;
+}
 .settingIcon{
     border: none;
     border-radius: 30px;
@@ -114,13 +124,14 @@ ul li label{
 }
 .sales .totalsales{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     margin-top: 10px;
     margin-left: 10px;   
 }
 .sales .amount{
-    font-weight: normal;
+    font-family: Poppins;
+    font-weight: 600;
     font-size: 40px;
     line-height: 64px;
     margin-top: 12px;
@@ -148,17 +159,23 @@ ul li label{
 }
 .total-visit .totalvisit{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     margin-top: 10px;
     margin-left: 10px;
 }
 .total-visit .clients{
-    font-weight: normal;
+    font-weight: 900;
     font-size: 40px;
     line-height: 64px;
     margin-top: 12px;
     margin-left: 10px;
+}
+.total-visit .happy-clients{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: rgba(25, 53, 102, 0.9);
 }
 .total-visit .view{
     border: none;
@@ -172,35 +189,987 @@ ul li label{
     box-shadow: -8px -8px 16px #FFFFFF, 10px 10px 20px rgba(151, 167, 195, 0.3);
     border-radius: 5px;
 }
-
 .lounge{
     width: 485px;
-    height: 298px;
+    height: 297px;
     margin-left: 22px;
-    margin-top: 20px;
+    margin-top: 22px;
+    font-family: Poppins;
+    font-style: normal;
+    color: #193566;
+}
+.lounge .title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+.lounge .scroll-back{
+    position: absolute;
+    left: 97.63%;
+    right: 0%;
+    top: 17.43%;
+    bottom: 0.09%;
+    background: #F8F8F8;
+    box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+.lounge .scrollbar{
+    position: absolute;
+    left: 98.08%;
+    right: 0.44%;
+    top: 18.12%;
+    bottom: 31.5%;
+    background: #A6A6A6;
+    border-radius: 6px;
+}
+.lounge .line11{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 17.43%;
+    bottom: 82.57%;
+    border: 0.5px solid rgba(170, 170, 170, 0.2);
+}
+.lounge .harsh{
+    position: absolute;
+    left: 4.44%;
+    right: 66.72%;
+    top: 22.2%;
+    bottom: 70.83%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+.lounge .hair-cut{
+    position: absolute;
+    left: 43.93%;
+    right: 40.68%;
+    top: 22.39%;
+    bottom: 71.01%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(25, 53, 102, 0.6);
+}
+.lounge .not-assigned{
+    position: absolute;
+    left: 73.52%;
+    right: 6.8%;
+    top: 23.5%;
+    bottom: 71.56%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(25, 53, 102, 0.6);
+}
+.lounge .line12{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 33.94%;
+    bottom: 66.06%;
+    border: 0.5px solid rgba(170, 170, 170, 0.2);
+}
+.lounge .pathik{
+    position: absolute;
+    left: 4.44%;
+    right: 68.05%;
+    top: 38.72%;
+    bottom: 54.31%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+.lounge .hair-wash{
+    position: absolute;
+    left: 43.93%;
+    right: 36.98%;
+    top: 38.9%;
+    bottom: 54.5%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(25, 53, 102, 0.6);
+}
+.lounge .not-assigned2{
+    position: absolute;
+    left: 73.52%;
+    right: 6.8%;
+    top: 40%;
+    bottom: 55.05%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(25, 53, 102, 0.6);
+}
+.lounge .line13{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 50.46%;
+    bottom: 49.54%;
+    border: 0.5px solid rgba(170, 170, 170, 0.2);
 }
 .service-provider{
     width: 200px;
     height: 350px;
     margin-left: -45px;
+    font-family: Poppins;
+    font-style: normal;
+    color: #193566;
+}
+.service-provider .title{
+    position: absolute;
+    left: 5.31%;
+    right: 10.73%;
+    top: 3.65%;
+    bottom: 88.14%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+.service-provider .today{
+    position: absolute;
+    left: 8.31%;
+    right: 50.47%;
+    top: 13.14%;
+    bottom: 81.39%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(25, 53, 102, 0.7);
+}
+.service-provider .scroll-back{
+    position: absolute;
+    left: 94.95%;
+    right: 0%;
+    top: 20.99%;
+    bottom: 0.55%;
+    background: #F8F8F8;
+    box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+.service-provider .scrollbar{
+    position: absolute;
+    left: 95.9%;
+    right: 0.95%;
+    top: 21.64%;
+    bottom: 30.43%;
+    background: #A6A6A6;
+    border-radius: 6px;
+}
+.service-provider .line11{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 20.99%;
+    bottom: 79.01%;
+    border: 0.5px solid rgba(170, 170, 170, 0.2);
+}
+.service-provider .sanjay{
+    position: absolute;
+    left: 9.46%;
+    right: 34.38%;
+    top: 24.09%;
+    bottom: 68.98%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+.service-provider .availabel{
+    position: absolute;
+    left: 9.46%;
+    right: 66.56%;
+    top: 29.93%;
+    bottom: 65.69%;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #338333;
+}
+.service-provider .line12{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 37.41%;
+    bottom: 62.59%;
+    border: 0.5px solid rgba(170, 170, 170, 0.2);
+}
+.service-provider .anup{
+    position: absolute;
+    left: 9.46%;
+    right: 44.48%;
+    top: 40.51%;
+    bottom: 52.55%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+.service-provider .availabel2{
+    position: absolute;
+    left: 9.46%;
+    right: 29.34%;
+    top: 46.35%;
+    bottom: 49.27%;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: rgba(25, 53, 102, 0.5);
+}
+.service-provider .line13{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 53.83%;
+    bottom: 46.17%;
+    border: 0.5px solid rgba(170, 170, 170, 0.2);
+}
+.service-provider .gunjan{
+    position: absolute;
+    left: 9.46%;
+    right: 42.59%;
+    top: 56.93%;
+    bottom: 36.13%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+.service-provider .availabel3{
+    position: absolute;
+    left: 9.46%;
+    right: 29.02%;
+    top: 62.77%;
+    bottom: 32.85%;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: rgba(25, 53, 102, 0.5);
+}
+.service-provider .line14{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 70.26%;
+    bottom: 29.74%;
+    border: 0.5px solid rgba(170, 170, 170, 0.2);
+}
+.service-provider .tanvi{
+    position: absolute;
+    left: 9.46%;
+    right: 44.48%;
+    top: 73.36%;
+    bottom: 19.71%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(25, 53, 102, 0.5);
+}
+.service-provider .availabel4{
+    position: absolute;
+    left: 9.46%;
+    right: 72.56%;
+    top: 79.2%;
+    bottom: 16.42%;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #D5212E;
+}
+.service-provider .line15{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 86.68%;
+    bottom: 13.32%;
+    border: 0.5px solid rgba(170, 170, 170, 0.2);
+}
+.service-provider .abhiraj{
+    position: absolute;
+    left: 9.46%;
+    right: 39.43%;
+    top: 89.78%;
+    bottom: 3.28%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(25, 53, 102, 0.5);
+}
+.service-provider .availabel5{
+    position: absolute;
+    left: 9.46%;
+    right: 72.56%;
+    top: 95.62%;
+    bottom: 0%;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #D5212E;
 }
 .total-appointment{
     width: 200px;
-    height: 156px;
+    height: 157px;
     margin-top: 22px;
     margin-left: -45px;
+    font-family: Poppins;
+    font-style: normal;
+    color: #193566;
+}
+.total-appointment .title{
+    position: absolute;
+    left: 6.31%;
+    right: 13.88%;
+    top: 3.85%;
+    bottom: 81.54%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+}
+.total-appointment .a58{
+    position: absolute;
+    left: 6.31%;
+    right: 71.92%;
+    top: 29.62%;
+    bottom: 39.62%;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 64px;
+}
+.total-appointment .till-now{
+    position: absolute;
+    left: 30.6%;
+    right: 45.43%;
+    top: 35.77%;
+    bottom: 45.77%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(25, 53, 102, 0.6);
+}
+.total-appointment .line11{
+    position: absolute;
+    left: 6.31%;
+    right: 6.31%;
+    top: 71.54%;
+    bottom: 28.46%;
+    border: 1px solid rgba(25, 53, 102, 0.3);
+}
+.total-appointment .cancelled{
+    position: absolute;
+    left: 6.31%;
+    right: 37.54%;
+    top: 74.23%;
+    bottom: 7.31%;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    color: rgba(25, 53, 102, 0.6);
 }
 .upcoming-appointment{
     width: 435px;
     height: 300px;
     margin-left: -50px;    
+    font-family: Poppins;
+    font-style: normal;
+    color: #193566;
+}
+.upcoming-appointment .title{
+    position: absolute;
+    left: 5.03%;
+    right: 33.05%;
+    top: 3.65%;
+    bottom: 88.14%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+.upcoming-appointment .date{
+    position: absolute;
+    left: 80.37%;
+    right: 5.03%;
+    top: 8.39%;
+    bottom: 88.14%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(25, 53, 102, 0.7);
+}
+.upcoming-appointment .jan{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.upcoming-appointment .day{
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.upcoming-appointment .rect1{
+    position: absolute;
+    left: 10.74%;
+    right: 77.52%;
+    top: 19.16%;
+    bottom: 69.89%;
+    background: #193566;
+    box-shadow: -3px -3px 6px #FFFFFF, 3px 3px 6px rgba(25, 53, 102, 0.5);
+    border-radius: 8px;
+}
+.upcoming-appointment .jan11{
+    position: absolute;
+    left: 12.80%;
+    right: 78.89%;
+    top: 21.04%;
+    bottom: 74.71%;
+    color: #FFFFFF;
+}
+.upcoming-appointment .day1{
+    position: absolute;
+    left: 13.27%;
+    right: 79.88%;
+    top: 27.2%;
+    bottom: 71.08%;
+    color: #FFFFFF;
+}
+.upcoming-appointment .rect2{
+    position: absolute;
+    left: 25.84%;
+    right: 62.42%;
+    top: 19.16%;
+    bottom: 69.89%;
+    background: #ECF0F3;
+    box-shadow: 3px 3px 6px rgba(25, 53, 102, 0.14), -3px -3px 6px #FFFFFF;
+    border-radius: 8px;
+}
+.upcoming-appointment .jan12{
+    position: absolute;
+    left: 27.35%;
+    right: 63.65%;
+    top: 21.07%;
+    bottom: 74.67%;
+}
+.upcoming-appointment .day2{
+    position: absolute;
+    left: 29.37%;
+    right: 64.78%;
+    top: 27.2%;
+    bottom: 71.08%;
+    color: rgba(25, 53, 102, 0.7);
+}
+.upcoming-appointment .rect3{
+    position: absolute;
+    left: 40.94%;
+    right: 47.32%;
+    top: 19.16%;
+    bottom: 69.89%;
+    background: #ECF0F3;
+    box-shadow: 3px 3px 6px rgba(25, 53, 102, 0.14), -3px -3px 6px #FFFFFF;
+    border-radius: 8px;
+}
+.upcoming-appointment .jan13{
+    position: absolute;
+    left: 42.71%;
+    right: 48.69%;
+    top: 21.04%;
+    bottom: 74.71%;
+}
+.upcoming-appointment .day3{
+    position: absolute;
+    left: 44.47%;
+    right: 49.68%;
+    top: 27.2%;
+    bottom: 71.08%;
+    color: rgba(25, 53, 102, 0.7);
+}
+.upcoming-appointment .rect4{
+    position: absolute;
+    left: 56.04%;
+    right: 32.21%;
+    top: 19.16%;
+    bottom: 69.89%;
+    background: #ECF0F3;
+    box-shadow: 3px 3px 6px rgba(25, 53, 102, 0.14), -3px -3px 6px #FFFFFF;
+    border-radius: 8px;
+}
+.upcoming-appointment .jan14{
+    position: absolute;
+    left: 57.5%;
+    right: 33.39%;
+    top: 21.07%;
+    bottom: 74.64%;
+}
+.upcoming-appointment .day4{
+    position: absolute;
+    left: 59.56%;
+    right: 34.59%;
+    top: 27.2%;
+    bottom: 70.91%;
+    color: rgba(25, 53, 102, 0.7);
+}
+.upcoming-appointment .rect5{
+    position: absolute;
+    left: 71.14%;
+    right: 17.11%;
+    top: 19.16%;
+    bottom: 69.89%;
+    background: #ECF0F3;
+    box-shadow: 3px 3px 6px rgba(25, 53, 102, 0.14), -3px -3px 6px #FFFFFF;
+    border-radius: 8px;
+}
+.upcoming-appointment .jan15{
+    position: absolute;
+    left: 72.48%;
+    right: 18.51%;
+    top: 21.07%;
+    bottom: 74.67%;
+}
+.upcoming-appointment .day5{
+    position: absolute;
+    left: 75.67%;
+    right: 19.48%;
+    top: 27.2%;
+    bottom: 71.08%;
+    color: rgba(25, 53, 102, 0.7);
+}
+.upcoming-appointment .left-arrow{
+    position: absolute;
+    left: 4.23%;
+    right: 90.58%;
+    top: 22.08%;
+    bottom: 72.63%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.upcoming-appointment .right-arrow{
+    position: absolute;
+    left: 90.77%;
+    right: 5.03%;
+    top: 22.08%;
+    bottom: 72.63%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.upcoming-appointment .scroll-back{
+    position: absolute;
+    left: 97.32%;
+    right: 0%;
+    top: 34.12%;
+    bottom: 0.08%;
+    background: #F8F8F8;
+    box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+.upcoming-appointment .scrollbar{
+    position: absolute;
+    left: 97.82%;
+    right: 0.5%;
+    top: 34.67%;
+    bottom: 25.18%;
+    background: #A6A6A6;
+    border-radius: 6px;
+}
+.upcoming-appointment .line10{
+    position: absolute;
+    left: 0%;
+    right: 2.68%;
+    top: 34.31%;
+    bottom: 65.69%;
+    border: 0.5px solid rgba(25, 53, 102, 0.1);
+}
+.upcoming-appointment .start{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: #193566;
+}
+.upcoming-appointment .middle1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: #193566;
+}
+.upcoming-appointment .middle2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: rgba(25, 53, 102, 0.6);
+}
+.upcoming-appointment .last{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 33px;
+    color: #193566;
+}
+.upcoming-appointment .app-start1{
+    position: absolute;
+    left: 5.03%;
+    right: 89.26%;
+    top: 37.59%;
+    bottom: 52.55%;
+}
+.upcoming-appointment .app-middle11{
+    position: absolute;
+    left: 13.42%;
+    right: 45.13%;
+    top: 37.51%;
+    bottom: 55.66%;
+}
+.upcoming-appointment .app-middle21{
+    position: absolute;
+    left: 13.42%;
+    right: 61.41%;
+    top: 43.25%;
+    bottom: 52.37%;
+}
+.upcoming-appointment .app-last1{
+    position: absolute;
+    left: 82.89%;
+    right: 5.03%;
+    top: 36.69%;
+    bottom: 53.83%;
+}
+.upcoming-appointment .line11{
+    position: absolute;
+    left: 0%;
+    right: 2.68%;
+    top: 50.73%;
+    bottom: 49.27%;
+    border: 0.5px solid rgba(25, 53, 102, 0.1);
+}
+.upcoming-appointment .app-start2{
+    position: absolute;
+    left: 5.03%;
+    right: 88.93%;
+    top: 54.01%;
+    bottom: 36.13%;
+}
+.upcoming-appointment .app-middle12{
+    position: absolute;
+    left: 13.42%;
+    right: 56.04%;
+    top: 53.83%;
+    bottom: 39.23%;
+}
+.upcoming-appointment .app-middle22{
+    position: absolute;
+    left: 13.42%;
+    right: 60.74%;
+    top: 59.67%;
+    bottom: 35.95%;
+}
+.upcoming-appointment .app-last2{
+    position: absolute;
+    left: 83.89%;
+    right: 5.03%;
+    top: 53.11%;
+    bottom: 37.41%;
+}
+.upcoming-appointment .line12{
+    position: absolute;
+    left: 0%;
+    right: 2.68%;
+    top: 67.15%;
+    bottom: 32.85%;
+    border: 0.5px solid rgba(25, 53, 102, 0.1);
+}
+.upcoming-appointment .app-start3{
+    position: absolute;
+    left: 5.03%;
+    right: 89.09%;
+    top: 70.44%;
+    bottom: 19.71%;
+}
+.upcoming-appointment .app-middle13{
+    position: absolute;
+    left: 13.42%;
+    right: 55.7%;
+    top: 70.26%;
+    bottom: 22.81%;
+}
+.upcoming-appointment .app-middle23{
+    position: absolute;
+    left: 13.42%;
+    right: 50%;
+    top: 76.09%;
+    bottom: 19.53%;
+}
+.upcoming-appointment .app-last3{
+    position: absolute;
+    left: 83.89%;
+    right: 5.03%;
+    top: 69.53%;
+    bottom: 20.99%;
+}
+.upcoming-appointment .line13{
+    position: absolute;
+    left: 0%;
+    right: 2.68%;
+    top: 83.58%;
+    bottom: 16.42%;
+    border: 0.5px solid rgba(25, 53, 102, 0.1);
+}
+.upcoming-appointment .app-start4{
+    position: absolute;
+    left: 5.03%;
+    right: 88.93%;
+    top: 86.86%;
+    bottom: 3.28%;
+}
+.upcoming-appointment .app-middle14{
+    position: absolute;
+    left: 13.42%;
+    right: 61.58%;
+    top: 86.68%;
+    bottom: 6.39%;
+}
+.upcoming-appointment .app-middle24{
+    position: absolute;
+    left: 13.42%;
+    right: 54.19%;
+    top: 92.52%;
+    bottom: 3.1%;
+}
+.upcoming-appointment .app-last4{
+    position: absolute;
+    left: 81.04%;
+    right: 5.03%;
+    top: 85.96%;
+    bottom: 4.56%;
+}
+.upcoming-appointment .line14{
+    position: absolute;
+    left: 0%;
+    right: 2.68%;
+    top: 83.58%;
+    bottom: 16.42%;
+    border: 0.5px solid rgba(25, 53, 102, 0.1);
 }
 .popular-hour{
     width: 435px;
-    height: 206px;
+    height: 207px;
     margin-top: 22px;
     margin-left: -50px;
 }
+.popular-hour .title{
+    position: absolute;
+    left: 3.36%;
+    right: 66.61%;
+    top: 3.85%;
+    bottom: 81.54%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #193566;
+}
+.popular-hour .bar1{
+    position: absolute;
+    left: 12.08%;
+    right: 84.56%;
+    top: 50.99%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.35);
+    border-radius: 15px;
+}
+.popular-hour .bar2{
+    position: absolute;
+    left: 20.13%;
+    right: 76.51%;
+    top: 42.55%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.48);
+    border-radius: 15px;
+}
+.popular-hour .bar3{
+    position: absolute;
+    left: 28.36%;
+    right: 68.29%;
+    top: 49.3%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.27);
+    border-radius: 15px;
+}
+.popular-hour .bar4{
+    position: absolute;
+    left: 36.07%;
+    right: 60.57%;
+    top: 44.23%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.31);
+    border-radius: 15px;
+}
+.popular-hour .bar5{
+    position: absolute;
+    left: 44.3%;
+    right: 52.35%;
+    top: 54.36%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.16);
+    border-radius: 15px;
+}
+.popular-hour .bar6{
+    position: absolute;
+    left: 52.52%;
+    right: 44.13%;
+    top: 40.38%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.6);
+    border-radius: 15px;
+}
+.popular-hour .bar7{
+    position: absolute;
+    left: 60.91%;
+    right: 35.74%;
+    top: 35.79%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.7);
+    border-radius: 15px;
+}
+.popular-hour .bar8{
+    position: absolute;
+    left: 68.46%;
+    right: 28.19%;
+    top: 27.69%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.8);
+    border-radius: 15px;
+}
+.popular-hour .bar9{
+    position: absolute;
+    left: 76.34%;
+    right: 20.3%;
+    top: 30.73%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.7);
+    border-radius: 15px;
+}
+.popular-hour .bar10{
+    position: absolute;
+    left: 84.56%;
+    right: 12.08%;
+    top: 55.37%;
+    bottom: 25.38%;
+    background: rgba(25, 53, 102, 0.4);
+    border-radius: 15px;
+}
+.popular-hour .line0{
+    position: absolute;
+    left: 0%;
+    right: 0.17%;
+    top: 80.38%;
+    bottom: 19.62%;
+    border: 1px solid #193566;
+}
+.popular-hour .line1{
+    position: absolute;
+    left: 18.62%;
+    right: 80.54%;
+    top: 81.38%;
+    bottom: 19.23%;
+    border: 1px solid #193566;
+    transform: rotate(90deg);
+}
+.popular-hour .line2{
+    position: absolute;
+    left: 34.56%;
+    right: 64.6%;
+    top: 81.38%;
+    bottom: 19.23%;
+    border: 1px solid #193566;
+    transform: rotate(90deg);
+}
+.popular-hour .line3{
+    position: absolute;
+    left: 51.01%;
+    right: 48.15%;
+    top: 81.38%;
+    bottom: 19.23%;
+    border: 1px solid #193566;
+    transform: rotate(90deg);
+}
+.popular-hour .line4{
+    position: absolute;
+    left: 66.95%;
+    right: 32.21%;
+    top: 81.38%;
+    bottom: 19.23%;
+    border: 1px solid #193566;
+    transform: rotate(90deg);
+}
+.popular-hour .line5{
+    position: absolute;
+    left: 83.05%;
+    right: 16.11%;
+    top: 81.38%;
+    bottom: 19.23%;
+    border: 1px solid #193566;
+    transform: rotate(90deg);
+}
+.popular-hour .time{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #193566;
+}
+.popular-hour .time1{
+    position: absolute;
+    left: 15.44%;
+    right: 78.19%;
+    top: 81.38%;
+    bottom: 8.08%;
+}
+.popular-hour .time2{
+    position: absolute;
+    left: 31.38%;
+    right: 62.25%;
+    top: 81.38%;
+    bottom: 8.08%;
+}
+.popular-hour .time3{
+    position: absolute;
+    left: 47.65%;
+    right: 45.81%;
+    top: 81.38%;
+    bottom: 8.08%;
+}
+.popular-hour .time4{
+    position: absolute;
+    left: 63.76%;
+    right: 29.87%;
+    top: 81.38%;
+    bottom: 8.08%;
+}
+.popular-hour .time5{
+    position: absolute;
+    left: 79.87%;
+    right: 13.76%;
+    top: 81.38%;
+    bottom: 8.08%;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
     .rowoverlay{
@@ -259,6 +1228,7 @@ ul li label{
         margin-left: 15px;
         float: left;
     }
+
     .settingIcon{
         margin-top: 4px;
         margin-left: 15px;
@@ -271,29 +1241,57 @@ ul li label{
         margin-top: 30px;
         margin-left: 30px;
     }
-    .sales{
-
-    }
-    .total-visit{
-
-    }
     .lounge{
-        width: 258px;
+        width: 278px;
         height: 298px;
     }
-    .service-provider{
-        
+    .lounge .harsh,.pathik{
+        font-size: 14px;
     }
-    .total-appointment{
-        
+    .lounge .hair-cut,.hair-wash{
+        font-size: 12px;
+    }
+    .lounge .not-assigned,.not-assigned2{
+        font-size: 11px;
+    }
+    .lounge .line12{
+        top: 37.94%;
+    }
+    .lounge .pathik{
+        font-size: 14px;
+    }
+    .lounge .hair-wash{
+        font-size: 12px;
+    }
+    .lounge .not-assigned2{
+        font-size: 11px;
+    }
+    .lounge .line13{
+        top: 55%;
+    }
+    .service-provider .title{
+        left: -15%;
+        right: 10%;
+        font-size: 17px;
+    }
+    .total-appointment .title{
+        font-size: 15px;
+        left: -15%;
+        right: 13.88%;
     }
     .upcoming-appointment{
-        width: 258px;
-        height: 300px;
+        width: 278px;
+        height: 400px;
     }
     .popular-hour{
-        width: 258px;
-        height: 206px;
+        width: 278px;
+        height: 300px;
+    }
+    .popular-hour .title{
+        left: -5%;
+        right: 30.61%;
+        font-size: 18px;
+        
     }
     .layout-scroll{
         position: absolute;
