@@ -3,6 +3,9 @@ body{
 }
 ul li label{
     display: none;
+    color: white;
+    padding-left: 23px;
+    font-weight: 600;
 }
 .container-fulid{
     width: 120%;
@@ -22,8 +25,9 @@ ul li label{
     border-radius: 20px;
     height: 100%;
     margin-left: 3%;
-    width: 6%;
+    width: 6%;    
 }
+
 .listIcon{
     position: absolute;
     top: 30px;
@@ -36,6 +40,12 @@ ul li label{
     background: white;
     border-radius: 3px;
     padding: 5px 5px;
+}
+.dashboardLabel{
+    position: absolute;
+    top: 175px;
+    left: 37px;
+    font-size: 16px;
 }
 .calendarIcon{
     position: absolute;
@@ -94,10 +104,10 @@ ul li label{
 }
 .notification{
     position: absolute;
-    left: 93%;
-    right: 1%;
-    top: 41%;
-    bottom: 47%;
+    left: 108.5%;
+    right: -9.1%;
+    top: 22%;
+    bottom: 70%;
     border-radius: 20px;
     background: #FF0000;
 }
@@ -1167,10 +1177,6 @@ ul li label{
     top: 81.38%;
     bottom: 8.08%;
 }
-
-
-
-
 @media only screen and (max-width: 600px) {
     .rowoverlay{
         height: 100%;
@@ -1179,6 +1185,10 @@ ul li label{
         width: 17%;
         height: 100%;
         border-radius: 10px;
+    }
+    
+    ul li label{
+        display: none;
     }
     .listIcon{
         position: absolute;
@@ -1192,6 +1202,10 @@ ul li label{
         background: white;
         padding: 4px 4px;
         border-radius: 3px;
+    }
+    .dashboardLabel{
+        top: 205px;
+        left: 30px;
     }
     .calendarIcon{
         position: absolute;
@@ -1224,9 +1238,16 @@ ul li label{
         font-size: 18px;
     }
     .bellIcon{
-        margin-top: 5px;
+        margin-top: 4px;
         margin-left: 15px;
         float: left;
+    }
+    .notification{
+        left: 82.5%;
+        right: 15.5%;
+        top: 72.5%;
+        bottom: 21%;
+        border-radius: 20px;
     }
 
     .settingIcon{
@@ -1242,7 +1263,7 @@ ul li label{
         margin-left: 30px;
     }
     .lounge{
-        width: 278px;
+        width: 270px;
         height: 298px;
     }
     .lounge .harsh,.pathik{
@@ -1280,18 +1301,41 @@ ul li label{
         right: 13.88%;
     }
     .upcoming-appointment{
-        width: 278px;
+        width: 270px;
         height: 400px;
     }
+    .upcoming-appointment .title{
+        left: -10.03%;
+        right: 10.05%;
+        font-size: 16px;
+    }
+    .upcoming-appointment .middle1{
+        font-size: 14px;
+        left: 15%;
+        right: 30%;
+    }
+    .upcoming-appointment .middle2{
+        right: 30%;
+        left: 15%;
+    }
+    .upcoming-appointment .last{
+        left: 79%;
+        right: 1%;
+    }
+    .upcoming-appointment .app-last1{
+        left: 77.5%;
+    }
+    .upcoming-appointment .app-last4{
+        left:75.2%;
+    }
     .popular-hour{
-        width: 278px;
+        width: 270px;
         height: 300px;
     }
     .popular-hour .title{
         left: -5%;
         right: 30.61%;
         font-size: 18px;
-        
     }
     .layout-scroll{
         position: absolute;
@@ -1301,6 +1345,7 @@ ul li label{
         margin-top: 20px;
     }  
 }
+
 
 
 

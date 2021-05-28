@@ -4,20 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
     <title>Dashboard2</title>
 
     <script>
-    
+        $(document).ready(function(){
+
+            if (window.matchMedia("(max-width: 600px)").matches) {
+                
+                $('.coloverlay').on('click',function(){
+                    if($(this).attr('data-click-state') == 1) {
+                        $(this).attr('data-click-state', 0);
+                        $(".coloverlay").css({width:'50%'});
+                        $("ul li label").css({display:'inline'});
+                    }
+                    else {
+                        $(this).attr('data-click-state', 1);
+                        $(".coloverlay").css({width:'17%'});
+                        $("ul li label").css({display:'none'});
+                    }
+                });
+                
+            } else {
+
+                $(".coloverlay").mouseenter(function(){
+                    $(".coloverlay").css({width:'13%'});
+                    $("ul li label").css({display:'inline'});
+                });
+                $(".coloverlay").mouseleave(function(){
+                    $(".coloverlay").css({width:'6%'});
+                    $("ul li label").css({display:'none'});
+                });  
+            }
+        });        
     </script>
     
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
         <div class="row rowoverlay">
             <div class="col-lg-1 coloverlay">
                 <div>
@@ -64,8 +95,8 @@
                     </div>
                     <div class="col-lg-1">
                         <button class="bellIcon"><img src="/icons/SettingsIconbell.png" style="margin-bottom: 1px;"></button>
-                        <div class="notification"></div>
                     </div>
+                    <div class="notification"></div>
                     <div class="col-lg-1">
                         <button class="settingIcon"><img src="/icons/clarity_settings-line.png"></button>
                     </div>
