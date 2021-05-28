@@ -17,8 +17,9 @@
     <script>
         $(document).ready(function(){
 
-            if (window.matchMedia("(max-width: 600px)").matches) {
-                
+            if (window.matchMedia("(max-width: 600px)").matches){
+
+                /* animation for mobile view */
                 $('.coloverlay').on('click',function(){
                     if($(this).attr('data-click-state') == 1) {
                         $(this).attr('data-click-state', 0);
@@ -31,9 +32,10 @@
                         $("ul li label").css({display:'none'});
                     }
                 });
-                
+            
             } else {
 
+                /* animation for desktop view */
                 $(".coloverlay").mouseenter(function(){
                     $(".coloverlay").css({width:'13%'});
                     $("ul li label").css({display:'inline'});
@@ -50,7 +52,7 @@
 <body>
     <div class="container"> 
         <div class="row rowoverlay">
-            <div class="col-lg-1 coloverlay">
+            <div class="col-lg-1 coloverlay"><!--divide row in 1:11-->
                 <div>
                     <img src="/icons/ListIcon2.png" class="listIcon"/>
                 </div>
@@ -231,17 +233,10 @@
                         <label class="time time3">3 pm</label>
                         <label class="time time4">5 pm</label>
                         <label class="time time5">7 pm</label>
-                        
-                        
-                    </div>
-                    
+                    </div>    
                 </div>
-
             </div>
         </div>
-    </div>
-    
-
-    
+    </div>   
 </body>
 </html>

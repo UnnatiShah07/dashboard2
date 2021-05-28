@@ -10,6 +10,7 @@ ul li label{
 .container-fulid{
     width: 120%;
 }
+/*overlap column over differet rows*/
 .rowoverlay{
     position: absolute;
     top: 0;
@@ -18,7 +19,6 @@ ul li label{
     bottom:0;
     right:0;
     height:100%;
-    width: 100%;
 } 
 .coloverlay{
     background: #193566;
@@ -27,7 +27,6 @@ ul li label{
     margin-left: 3%;
     width: 6%;    
 }
-
 .listIcon{
     position: absolute;
     top: 30px;
@@ -1177,6 +1176,7 @@ ul li label{
     top: 81.38%;
     bottom: 8.08%;
 }
+/*design for mobile view*/
 @media only screen and (max-width: 600px) {
     .rowoverlay{
         height: 100%;
